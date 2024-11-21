@@ -1,0 +1,71 @@
+.sour-gummy-neel{
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+    font-family: "Sour Gummy", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color:rgb(181,215,168);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#gameContainer {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    gap: 0.5px;
+}
+
+.tile {
+    width: 50px;
+    height: 50px;
+    background-image: url('./images/grass1.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player {
+    background-image: url('./images/player1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wall {
+    background-image: url('./images/wall.png');
+    background-size: cover;
+}
+
+.box {
+    background-image: url('./images/block1.png');
+    background-size: cover;
+}
+
+.block_on_target {
+    background-image: url('./images/block2.png');
+    background-size: cover;
+}
+
+.target {
+    background-image: url('./images/grass2.png');
+    background-size: cover;
+}
+
+.grass {
+    background-image: url('./images/grass1.png');
+    background-size: cover;
+}
